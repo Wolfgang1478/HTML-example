@@ -1,0 +1,21 @@
+<!-- Los tpl.html son los templates  -->
+<div class="container well">
+<table class="table">
+    <thead>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Cedula</th>
+        <th>Dirección</th>
+        <th>Telefono</th>
+    </thead>
+    <tbody>
+        <tr ng-repeat="paciente in listaPacientes track by $index">
+            <td>{{paciente.nombre}}</td>
+            <td>{{paciente.apellido}}</td>
+            <td>{{paciente.cedula}}</td>
+            <td>{{paciente.direccion}}</td>
+            <td>{{paciente.telefono}}</td>
+        </tr>
+    </tbody>
+</table>
+</div>

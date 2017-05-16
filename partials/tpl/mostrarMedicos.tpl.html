@@ -1,0 +1,15 @@
+<!-- Los tpl.html son los templates  -->
+<div class="container well">
+<table class="table">
+    <thead>
+        <th>ID Medico</th>
+        <th>Nombre</th>
+    </thead>
+    <tbody>
+        <tr ng-repeat="medico in listaMedicos track by $index">
+            <td>{{medico.idMedico}}</td>
+            <td>{{medico.nombre}}</td>
+        </tr>
+    </tbody>
+</table>
+</div>

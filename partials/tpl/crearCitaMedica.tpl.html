@@ -1,0 +1,16 @@
+<form>
+    <p>{{mensajePost}}</p>
+    idCitaMedica: <input type="text" ng-model="citaMedica.idCitaMedica">
+    <br>
+    Cedula paciente: <input type="text" ng-model="citaMedica.Paciente_cedula">
+    <br>
+    idFechaMedico: <input type="text" ng-model="citaMedica.CalendarioMedico_FechaYHora_idFechaYHora">
+    <br>
+    idMedico: <input type="text" ng-model="citaMedica.CalendarioMedico_Medico_idMedico">
+    <br>
+    idConsultorio: <input type="text" ng-model="citaMedica.CalendarioConsultorio_Consultorio_idConsultorio">
+    <br>
+    idFechaConsultorio: <input type="text" ng-model="citaMedica.CalendarioConsultorio_FechaYHora_idFechaYHora">
+    <br>
+    <input type="button" class="btn btn-success" value="Crear cita medica" ng-click="crearCitaMedica()">
+</form>
